@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimientoSuelo : MonoBehaviour
+public class MovimientoBolas : MonoBehaviour
 {
     private Rigidbody cuerpoBola;
     public float velocidad = 10f;
