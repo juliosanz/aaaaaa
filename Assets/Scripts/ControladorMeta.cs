@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Script que detecta cuándo ambas bolas han llegado a su destino, y hace la GUI de victoria visible en ese caso
+
 public class ControladorMeta : MonoBehaviour
 {
     public GameObject bola1;

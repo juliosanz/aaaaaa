@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Script del GameObject "metax" que comprueba si la bola correcta ha llegado a su correspondiente meta,
+// y cambia el material tanto de la meta como de la bola para mostrar visualmente que se ha llegado
+
 public class Meta : MonoBehaviour
 {
     private int numMeta;

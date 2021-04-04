@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Script de movimiento de las bolas haciendo uso del acelerómetro del teléfono
+
 public class MovimientoBolas : MonoBehaviour
 {
     private Rigidbody cuerpoBola;

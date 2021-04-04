@@ -4,18 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+// Script que regula el comportamiento de los botones de la GUI
+
 public class Botones : MonoBehaviour
 {
     public Button botonTryAgain;
     public Button botonMenu;
-    // Start is called before the first frame update
+
     void Start()
     {
         botonTryAgain.onClick.AddListener(delegate { TaskOnClick(1); });
         botonMenu.onClick.AddListener(delegate { TaskOnClick(2); });
     }
 
-    // Update is called once per frame
     void Update()
     {
         
