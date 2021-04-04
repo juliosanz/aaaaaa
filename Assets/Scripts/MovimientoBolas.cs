@@ -18,7 +18,7 @@ public class MovimientoBolas : MonoBehaviour
         if(Input.deviceOrientation.Equals(DeviceOrientation.FaceUp))
         {
             Vector3 movimiento = new Vector3(Input.acceleration.x, 0f, Input.acceleration.y);
-            cuerpoBola.AddForce(movimiento, ForceMode.Acceleration);
+            cuerpoBola.AddForce(movimiento * velocidad * Time.deltaTime, ForceMode.Acceleration);
         }
     }
 }
