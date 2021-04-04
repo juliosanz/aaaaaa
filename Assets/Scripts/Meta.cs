@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class Meta : MonoBehaviour
 {
-    private string nameMeta;
     private int numMeta;
     public Material successMaterial;
-    // Start is called before the first frame update
+
     void Start()
     {
-        nameMeta = name;
         if(name.EndsWith("1"))
         {
             numMeta = 1;
@@ -21,7 +19,6 @@ public class Meta : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
