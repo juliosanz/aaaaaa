@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 1020658617}
   - component: {fileID: 1020658616}
   m_Layer: 5
-  m_Name: Image
+  m_Name: LabelMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
