@@ -13,8 +13,8 @@ public class Botones : MonoBehaviour
 
     void Start()
     {
-        botonTryAgain.onClick.AddListener(delegate { TaskOnClick(1); });
-        botonMenu.onClick.AddListener(delegate { TaskOnClick(2); });
+        botonTryAgain.onClick.AddListener(delegate { TaskOnClick("Bola1"); });
+        botonMenu.onClick.AddListener(delegate { TaskOnClick("Bola2"); });
     }
 
     void Update()
@@ -22,14 +22,14 @@ public class Botones : MonoBehaviour
         
     }
 
-    void TaskOnClick(int i)
+    void TaskOnClick(string objeto)
     {
-        switch(i)
+        switch(objeto)
         {
-            case 1:
+            case "Bola1":
                 SceneManager.LoadScene("minijuego");
                 break;
-            case 2:
+            case "Bola2":
                 Debug.Log("Menu pulsado");
                 break;
         }
