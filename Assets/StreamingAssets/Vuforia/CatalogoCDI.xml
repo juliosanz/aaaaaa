@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ClassSymb_Rogue" size="10.500000 9.920529" />
+    <ImageTarget name="ClassSymb_Fighter" size="6.500000 6.827731" />
+    <ImageTarget name="ClassSymb_Cleric" size="5.500000 9.233161" />
+    <ImageTarget name="ClassSymb_Wizard" size="4.500000 7.458563" />
+    <ImageTarget name="ClassSymb_Paladin" size="12.500000 18.009394" />
+    <ImageTarget name="IconoAsesino" size="12.500000 12.500000" />
+    <ImageTarget name="IconoLuchador" size="12.500000 12.500000" />
+    <ImageTarget name="mago" size="12.500000 12.500000" />
+    <ImageTarget name="witch_class" size="12.500000 15.333333" />
+  </Tracking>
+</QCARConfig>
