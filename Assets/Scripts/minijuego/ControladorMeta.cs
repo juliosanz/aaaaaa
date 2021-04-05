@@ -10,19 +10,19 @@ public class ControladorMeta : MonoBehaviour
     public GameObject bola2;
     public GameObject texto;
     public GameObject tryAgainButton;
-    private MovimientoBolas bola1movimiento;
-    private MovimientoBolas bola2movimiento;
+    private Rigidbody bola1Rigidbody;
+    private Rigidbody bola2Rigidbody;
     // Start is called before the first frame update
     void Start()
     {
-        bola1movimiento = bola1.GetComponent<MovimientoBolas>();
-        bola2movimiento = bola2.GetComponent<MovimientoBolas>();
+        bola1Rigidbody = bola1.GetComponent<Rigidbody>();
+        bola2Rigidbody = bola2.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!bola1movimiento.enabled && !bola2movimiento.enabled)
+        if(bola1Rigidbody.isKinematic && bola2Rigidbody.isKinematic)
         {
             texto.SetActive(true);
             tryAgainButton.SetActive(true);

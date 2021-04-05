@@ -31,7 +31,6 @@ public class Meta : MonoBehaviour
     {
         if(other.gameObject.name == "Bola" + numMeta)
         {
-            // other.gameObject.GetComponent<MovimientoBolas>().enabled = false;
             other.gameObject.GetComponent<Rigidbody>().isKinematic = true; 
             GetComponent<MeshRenderer>().material = successMaterial;
             other.gameObject.GetComponent<MeshRenderer>().material = successMaterial;
