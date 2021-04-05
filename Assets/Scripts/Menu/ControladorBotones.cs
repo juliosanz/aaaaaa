@@ -25,7 +25,7 @@ public class ControladorBotones : MonoBehaviour
                 // SceneManager.LoadScene("Mapa");
                 break;
             case "Catalogo":
-                // SceneManager.LoadScene("Catalogo");
+                SceneManager.LoadScene("Catalogo");
                 break;
             case "Minijuego":
                 SceneManager.LoadScene("Minijuego");
