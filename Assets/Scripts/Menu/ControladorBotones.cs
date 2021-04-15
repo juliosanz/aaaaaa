@@ -22,7 +22,7 @@ public class ControladorBotones : MonoBehaviour
         switch (boton)
         {
             case "Mapa":
-                // SceneManager.LoadScene("Mapa");
+                SceneManager.LoadScene("Geolocalizacion");
                 break;
             case "Catalogo":
                 SceneManager.LoadScene("Catalogo");

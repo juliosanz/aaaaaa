@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: a964c03d0dcceff47a3e3a29cc62dd15
+  - enabled: 1
+    path: Assets/Scenes/Geolocalizacion.unity
+    guid: 345f4a9e5f1f5a745b67b4b1027a7271
   m_configObjects: {}
