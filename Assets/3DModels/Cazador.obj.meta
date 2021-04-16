@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: defaultMat
-    second: {fileID: 2100000, guid: 165fa275fcf6d874b973c590d76278ef, type: 2}
+    second: {fileID: 2100000, guid: e4330d2c487662842b54cbd3c7b1634b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
