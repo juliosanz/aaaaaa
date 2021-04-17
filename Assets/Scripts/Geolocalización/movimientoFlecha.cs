@@ -20,8 +20,6 @@ public class movimientoFlecha : MonoBehaviour
         
         transform.LookAt(new Vector3(objetivo.transform.position.x, transform.position.y, objetivo.transform.position.z));
 
-        
-
     }
 
     
