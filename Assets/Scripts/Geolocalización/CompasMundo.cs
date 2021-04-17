@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class CompasMundo : MonoBehaviour
 {
+    public GameObject mundo;
     void Start()
     {
         Input.location.Start();
-        transform.rotation = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
+        mundo.transform.rotation = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
         Input.compass.enabled = true;
         Input.gyro.enabled = true;
     }
