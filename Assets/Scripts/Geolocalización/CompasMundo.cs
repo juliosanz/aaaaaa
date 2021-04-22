@@ -5,19 +5,17 @@ using UnityEngine.UI;
 
 public class CompasMundo : MonoBehaviour
 {
-    public GameObject mundo;
     void Start()
     {
         Input.location.Start();
-        mundo.transform.rotation = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
         Input.compass.enabled = true;
-        Input.gyro.enabled = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        GyroModifyCamera();
+        transform.rotation = Quaternion.Euler(0, (int)-Input.compass.trueHeading, 0);
+        // GyroModifyCamera();
     }
 
     // The Gyroscope is right-handed.  Unity is left handed.
@@ -29,8 +27,6 @@ public class CompasMundo : MonoBehaviour
 
     private static Quaternion GyroToUnity(Quaternion q)
     {
-        q.y = 0;
-        q.w = 0;
         return new Quaternion(q.x, q.y, -q.z, -q.w);
     }
 }

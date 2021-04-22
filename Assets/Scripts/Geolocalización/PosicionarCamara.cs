@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PosicionarCamara : MonoBehaviour
 {
-    
+    public GameObject mundo;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +14,8 @@ public class PosicionarCamara : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Input.location.lastData.longitude, 0, Input.location.lastData.latitude);
-        
+        transform.localPosition = new Vector3(Input.location.lastData.longitude, 0, Input.location.lastData.latitude);
+        Debug.Log("Longitud: " + Input.location.lastData.longitude + "\tLatitud: " + Input.location.lastData.latitude);
+        Debug.Log(transform.localPosition);
     }
 }
