@@ -9,7 +9,7 @@ public class camaraSigueFlecha : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        offset = new Vector3(-0.26f, 0.231f, 0);
+        offset = new Vector3(0, 0.126f, -0.32f);
     }
 
     // Update is called once per frame

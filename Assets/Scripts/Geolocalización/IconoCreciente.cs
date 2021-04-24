@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IconoCreciente : MonoBehaviour
 {
-   /* public GameObject persona;
+    public GameObject persona;
     public GameObject destino;
     private float distancia;
     // Start is called before the first frame update
@@ -22,5 +22,5 @@ public class IconoCreciente : MonoBehaviour
         Vector3 pPersona = persona.transform.position;
         Vector3 pDestino = destino.transform.position;
         distancia = Vector3.Distance(pPersona, pDestino);
-    }*/
+    }
 }
